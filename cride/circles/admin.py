@@ -4,9 +4,9 @@
 from django.contrib import admin
 
 # Models
-from cride.circles.models import Circles
+from cride.circles.models import Circle
 
-@admin.register(Circles)
+@admin.register(Circle)
 class CircleAdmin(admin.ModelAdmin):
     """Circle admin."""
 

@@ -1,4 +1,4 @@
-"""Circles models."""
+"""Circle models."""
 
 # Django
 from django.db import models
@@ -6,8 +6,8 @@ from django.db import models
 # Utilities
 from cride.utils.models import  CRideModel
 
-class Circles(CRideModel):
-    """Circles models.
+class Circle(CRideModel):
+    """Circle models.
     A circles is private group where rides are offered and taken
     by its members, to join a circle a user must recive an unique
     invitation code from an existing circle member.
